@@ -1,0 +1,70 @@
+html, body {
+	margin: 0;
+	border: 0;
+}
+body {
+	text-align: center;
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-attachment: fixed;
+	color: #FFF;
+}
+#title {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 5px 1px 10px #000;
+	font-size: 3rem;
+	margin: 2rem 0;
+}
+article {
+	width: 1200px;
+	margin: auto;
+}
+#quote {
+	background-color: rgba(0, 0, 0, 0.5);
+	font-family: 'Noto Serif', serif;
+	display: flex;
+	min-height: 15.875rem;
+	padding: 3rem 2rem;
+	justify-content: center;
+	flex-direction: column;
+}
+#quoteDisplay {
+	font-size: 2rem;
+	margin: 0;
+}
+#quoteAuthor {
+	font-size: 1.4rem;
+	text-align: right;
+	margin: 0;
+}
+#generator-btn {
+	font-size: 1.2rem;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	height: 3rem;
+	width: 12rem;
+	margin: 2rem 0;
+	border: 0;
+	border-radius: .2rem;
+}
+
+@media (max-width: 1199px) {
+	article {
+		width: 100vw;
+	}
+	#title {
+		font-size: 2.4rem;
+	}
+	#quote {
+		min-height: 12.75rem;
+	}
+	#quoteDisplay {
+		font-size: 1.5rem;
+	}
+	#quoteAuthor {
+		font-size: 1rem;
+		margin: 1rem 0 0;
+	}
+}
